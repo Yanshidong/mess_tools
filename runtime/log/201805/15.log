@@ -1,0 +1,26 @@
+---------------------------------------------------------------
+[ 2018-05-15T10:01:04+08:00 ] 127.0.0.1 GET /
+[ info ] localhost:8099/ [运行时间：0.063208s][吞吐率：15.82req/s] [内存消耗：2,010.12kb] [文件加载：40]
+[ info ] [ LANG ] /home/tutu/Project/tools/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8099',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /home/tutu/Project/tools/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File

@@ -1,0 +1,385 @@
+---------------------------------------------------------------
+[ 2018-05-16T10:52:04+08:00 ] 127.0.0.1 GET /index/Report/resetExcel
+[ info ] localhost:8099/index/Report/resetExcel [运行时间：0.055572s][吞吐率：17.99req/s] [内存消耗：2,180.49kb] [文件加载：40]
+[ info ] [ LANG ] /home/tutu/Project/tools/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Report',
+    2 => 'resetExcel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8099',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Report->resetExcel[ /home/tutu/Project/tools/application/index/controller/Report.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-16T10:54:33+08:00 ] 127.0.0.1 GET /index/Report/resetExcel
+[ info ] localhost:8099/index/Report/resetExcel [运行时间：0.063117s][吞吐率：15.84req/s] [内存消耗：2,514.24kb] [文件加载：49]
+[ info ] [ LANG ] /home/tutu/Project/tools/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Report',
+    2 => 'resetExcel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8099',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Report->resetExcel[ /home/tutu/Project/tools/application/index/controller/Report.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]SplFileObject::__construct(五包_(20171210~20171217)1679.xls): failed to open stream: No such file or directory[/home/tutu/Project/tools/thinkphp/library/think/File.php:66]
+---------------------------------------------------------------
+[ 2018-05-16T10:55:07+08:00 ] 127.0.0.1 GET /index/Report/resetExcel
+[ info ] localhost:8099/index/Report/resetExcel [运行时间：0.040604s][吞吐率：24.63req/s] [内存消耗：2,242.91kb] [文件加载：41]
+[ info ] [ LANG ] /home/tutu/Project/tools/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Report',
+    2 => 'resetExcel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8099',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Report->resetExcel[ /home/tutu/Project/tools/application/index/controller/Report.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-16T11:09:33+08:00 ] 127.0.0.1 GET /index/Report/resetExcel
+[ info ] localhost:8099/index/Report/resetExcel [运行时间：5.283622s][吞吐率：0.19req/s] [内存消耗：8,439.15kb] [文件加载：96]
+[ info ] [ LANG ] /home/tutu/Project/tools/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Report',
+    2 => 'resetExcel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8099',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Report->resetExcel[ /home/tutu/Project/tools/application/index/controller/Report.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]Illegal offset type[/home/tutu/Project/tools/application/common.php:208]
+---------------------------------------------------------------
+[ 2018-05-16T11:09:45+08:00 ] 127.0.0.1 GET /index/Report/resetExcel
+[ info ] localhost:8099/index/Report/resetExcel [运行时间：4.995220s][吞吐率：0.20req/s] [内存消耗：8,439.15kb] [文件加载：96]
+[ info ] [ LANG ] /home/tutu/Project/tools/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Report',
+    2 => 'resetExcel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8099',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Report->resetExcel[ /home/tutu/Project/tools/application/index/controller/Report.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]Illegal offset type[/home/tutu/Project/tools/application/common.php:208]
+---------------------------------------------------------------
+[ 2018-05-16T11:11:54+08:00 ] 127.0.0.1 GET /index/Report/resetExcel
+[ info ] localhost:8099/index/Report/resetExcel [运行时间：5.703018s][吞吐率：0.18req/s] [内存消耗：8,439.30kb] [文件加载：96]
+[ info ] [ LANG ] /home/tutu/Project/tools/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Report',
+    2 => 'resetExcel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8099',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Report->resetExcel[ /home/tutu/Project/tools/application/index/controller/Report.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: MAC地址[/home/tutu/Project/tools/application/index/controller/Report.php:239]
+---------------------------------------------------------------
+[ 2018-05-16T11:15:12+08:00 ] 127.0.0.1 GET /index/Report/resetExcel
+[ info ] localhost:8099/index/Report/resetExcel [运行时间：5.956918s][吞吐率：0.17req/s] [内存消耗：8,440.97kb] [文件加载：96]
+[ info ] [ LANG ] /home/tutu/Project/tools/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Report',
+    2 => 'resetExcel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8099',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Report->resetExcel[ /home/tutu/Project/tools/application/index/controller/Report.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: MAC地址[/home/tutu/Project/tools/application/index/controller/Report.php:240]
+---------------------------------------------------------------
+[ 2018-05-16T11:15:36+08:00 ] 127.0.0.1 GET /index/Report/resetExcel
+[ info ] localhost:8099/index/Report/resetExcel [运行时间：5.684498s][吞吐率：0.18req/s] [内存消耗：8,637.18kb] [文件加载：86]
+[ info ] [ LANG ] /home/tutu/Project/tools/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Report',
+    2 => 'resetExcel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8099',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Report->resetExcel[ /home/tutu/Project/tools/application/index/controller/Report.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-16T11:16:21+08:00 ] 127.0.0.1 GET /index/Report/resetExcel
+[ info ] localhost:8099/index/Report/resetExcel [运行时间：10.994822s][吞吐率：0.09req/s] [内存消耗：12,135.02kb] [文件加载：111]
+[ info ] [ LANG ] /home/tutu/Project/tools/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Report',
+    2 => 'resetExcel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8099',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Report->resetExcel[ /home/tutu/Project/tools/application/index/controller/Report.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-16T11:19:38+08:00 ] 127.0.0.1 GET /index/Report/resetExcel
+[ info ] localhost:8099/index/Report/resetExcel [运行时间：11.045814s][吞吐率：0.09req/s] [内存消耗：12,134.80kb] [文件加载：111]
+[ info ] [ LANG ] /home/tutu/Project/tools/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Report',
+    2 => 'resetExcel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8099',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Report->resetExcel[ /home/tutu/Project/tools/application/index/controller/Report.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-16T11:20:26+08:00 ] 127.0.0.1 GET /index/Report/resetExcel
+[ info ] localhost:8099/index/Report/resetExcel [运行时间：11.196962s][吞吐率：0.09req/s] [内存消耗：12,134.80kb] [文件加载：111]
+[ info ] [ LANG ] /home/tutu/Project/tools/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Report',
+    2 => 'resetExcel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8099',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Report->resetExcel[ /home/tutu/Project/tools/application/index/controller/Report.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-16T11:20:48+08:00 ] 127.0.0.1 GET /index/Report/resetExcel
+[ info ] localhost:8099/index/Report/resetExcel [运行时间：5.630236s][吞吐率：0.18req/s] [内存消耗：8,456.82kb] [文件加载：86]
+[ info ] [ LANG ] /home/tutu/Project/tools/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Report',
+    2 => 'resetExcel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8099',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Report->resetExcel[ /home/tutu/Project/tools/application/index/controller/Report.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-16T11:21:14+08:00 ] 127.0.0.1 GET /index/Report/resetExcel
+[ info ] localhost:8099/index/Report/resetExcel [运行时间：10.923889s][吞吐率：0.09req/s] [内存消耗：12,066.73kb] [文件加载：111]
+[ info ] [ LANG ] /home/tutu/Project/tools/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Report',
+    2 => 'resetExcel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8099',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Report->resetExcel[ /home/tutu/Project/tools/application/index/controller/Report.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-16T11:27:00+08:00 ] 127.0.0.1 GET /index/Report/resetExcel
+[ info ] localhost:8099/index/Report/resetExcel [运行时间：20.268097s][吞吐率：0.05req/s] [内存消耗：20,130.72kb] [文件加载：122]
+[ info ] [ LANG ] /home/tutu/Project/tools/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Report',
+    2 => 'resetExcel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8099',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'en-GB,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Report->resetExcel[ /home/tutu/Project/tools/application/index/controller/Report.php ]
+[ info ] [ LOG ] INIT File

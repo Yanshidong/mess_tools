@@ -1,0 +1,378 @@
+---------------------------------------------------------------
+[ 2018-05-02T10:22:42+08:00 ] 127.0.0.1 GET /task/Check/check?token1=4c8583434187f88c0f9e53d634c00dcb123456asdfghjkl,.&token=ls
+[ info ] localhost:8084/task/Check/check?token1=4c8583434187f88c0f9e53d634c00dcb123456asdfghjkl,.&token=ls [运行时间：0.090621s][吞吐率：11.03req/s] [内存消耗：465.05kb] [文件加载：46]
+[ info ] [ LANG ] /home/tutu/Project/tools/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'task',
+    1 => 'Check',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8084',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:59.0) Gecko/20100101 Firefox/59.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'en-US,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Phpstorm-2383b15=40b978d2-1578-42b4-8445-5cd55e64ef0d; UserID=admin; UserPWD=Ndj%40123456; IsRemember=on; pgv_pvi=1983248384',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'token1' => '4c8583434187f88c0f9e53d634c00dcb123456asdfghjkl,.',
+  'token' => 'ls',
+)
+[ info ] [ RUN ] app\task\controller\Check->check[ /home/tutu/Project/tools/application/task/controller/Check.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-02T10:23:40+08:00 ] 127.0.0.1 GET /task/Check/check?token1=4c8583434187f88c0f9e53d634c00dcb123456asdfghjkl,.&token=wget%20http://192.168.1.26/log.txt
+[ info ] localhost:8084/task/Check/check?token1=4c8583434187f88c0f9e53d634c00dcb123456asdfghjkl,.&token=wget%20http://192.168.1.26/log.txt [运行时间：0.045325s][吞吐率：22.06req/s] [内存消耗：264.00kb] [文件加载：46]
+[ info ] [ LANG ] /home/tutu/Project/tools/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'task',
+    1 => 'Check',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8084',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:59.0) Gecko/20100101 Firefox/59.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'en-US,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Phpstorm-2383b15=40b978d2-1578-42b4-8445-5cd55e64ef0d; UserID=admin; UserPWD=Ndj%40123456; IsRemember=on; pgv_pvi=1983248384',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'token1' => '4c8583434187f88c0f9e53d634c00dcb123456asdfghjkl,.',
+  'token' => 'wget http://192.168.1.26/log.txt',
+)
+[ info ] [ RUN ] app\task\controller\Check->check[ /home/tutu/Project/tools/application/task/controller/Check.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-02T10:24:01+08:00 ] 127.0.0.1 GET /task/Check/check?token1=4c8583434187f88c0f9e53d634c00dcb123456asdfghjkl,.&token=wget%20http://192.168.1.26/log.txt
+[ info ] localhost:8084/task/Check/check?token1=4c8583434187f88c0f9e53d634c00dcb123456asdfghjkl,.&token=wget%20http://192.168.1.26/log.txt [运行时间：0.037897s][吞吐率：26.39req/s] [内存消耗：264.00kb] [文件加载：46]
+[ info ] [ LANG ] /home/tutu/Project/tools/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'task',
+    1 => 'Check',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8084',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:59.0) Gecko/20100101 Firefox/59.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'en-US,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Phpstorm-2383b15=40b978d2-1578-42b4-8445-5cd55e64ef0d; UserID=admin; UserPWD=Ndj%40123456; IsRemember=on; pgv_pvi=1983248384',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'token1' => '4c8583434187f88c0f9e53d634c00dcb123456asdfghjkl,.',
+  'token' => 'wget http://192.168.1.26/log.txt',
+)
+[ info ] [ RUN ] app\task\controller\Check->check[ /home/tutu/Project/tools/application/task/controller/Check.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-02T10:24:44+08:00 ] 127.0.0.1 GET /task/Check/check?token1=4c8583434187f88c0f9e53d634c00dcb123456asdfghjkl,.&token=mv%20log.txt%20../../vendor/
+[ info ] localhost:8084/task/Check/check?token1=4c8583434187f88c0f9e53d634c00dcb123456asdfghjkl,.&token=mv%20log.txt%20../../vendor/ [运行时间：0.039901s][吞吐率：25.06req/s] [内存消耗：264.00kb] [文件加载：46]
+[ info ] [ LANG ] /home/tutu/Project/tools/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'task',
+    1 => 'Check',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8084',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:59.0) Gecko/20100101 Firefox/59.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'en-US,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Phpstorm-2383b15=40b978d2-1578-42b4-8445-5cd55e64ef0d; UserID=admin; UserPWD=Ndj%40123456; IsRemember=on; pgv_pvi=1983248384',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'token1' => '4c8583434187f88c0f9e53d634c00dcb123456asdfghjkl,.',
+  'token' => 'mv log.txt ../../vendor/',
+)
+[ info ] [ RUN ] app\task\controller\Check->check[ /home/tutu/Project/tools/application/task/controller/Check.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-02T10:42:54+08:00 ] 127.0.0.1 GET /task/Check/check?token1=4c8583434187f88c0f9e53d634c00dcb123456asdfghjkl,.&token=wget%20http://192.168.1.26/Excel.zip
+[ info ] localhost:8084/task/Check/check?token1=4c8583434187f88c0f9e53d634c00dcb123456asdfghjkl,.&token=wget%20http://192.168.1.26/Excel.zip [运行时间：0.324469s][吞吐率：3.08req/s] [内存消耗：264.03kb] [文件加载：46]
+[ info ] [ LANG ] /home/tutu/Project/tools/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'task',
+    1 => 'Check',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8084',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:59.0) Gecko/20100101 Firefox/59.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'en-US,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Phpstorm-2383b15=40b978d2-1578-42b4-8445-5cd55e64ef0d; UserID=admin; UserPWD=Ndj%40123456; IsRemember=on; pgv_pvi=1983248384',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'token1' => '4c8583434187f88c0f9e53d634c00dcb123456asdfghjkl,.',
+  'token' => 'wget http://192.168.1.26/Excel.zip',
+)
+[ info ] [ RUN ] app\task\controller\Check->check[ /home/tutu/Project/tools/application/task/controller/Check.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-02T10:43:18+08:00 ] 127.0.0.1 GET /task/Check/check?token1=4c8583434187f88c0f9e53d634c00dcb123456asdfghjkl,.&token=unzip%20Excel.zip
+[ info ] localhost:8084/task/Check/check?token1=4c8583434187f88c0f9e53d634c00dcb123456asdfghjkl,.&token=unzip%20Excel.zip [运行时间：0.146947s][吞吐率：6.81req/s] [内存消耗：296.00kb] [文件加载：46]
+[ info ] [ LANG ] /home/tutu/Project/tools/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'task',
+    1 => 'Check',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8084',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:59.0) Gecko/20100101 Firefox/59.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'en-US,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Phpstorm-2383b15=40b978d2-1578-42b4-8445-5cd55e64ef0d; UserID=admin; UserPWD=Ndj%40123456; IsRemember=on; pgv_pvi=1983248384',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'token1' => '4c8583434187f88c0f9e53d634c00dcb123456asdfghjkl,.',
+  'token' => 'unzip Excel.zip',
+)
+[ info ] [ RUN ] app\task\controller\Check->check[ /home/tutu/Project/tools/application/task/controller/Check.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-02T10:44:50+08:00 ] 127.0.0.1 GET /task/Check/check?token1=4c8583434187f88c0f9e53d634c00dcb123456asdfghjkl,.&token=wget%20http://192.168.1.26/clean.tar.gz
+[ info ] localhost:8084/task/Check/check?token1=4c8583434187f88c0f9e53d634c00dcb123456asdfghjkl,.&token=wget%20http://192.168.1.26/clean.tar.gz [运行时间：0.040172s][吞吐率：24.89req/s] [内存消耗：264.03kb] [文件加载：46]
+[ info ] [ LANG ] /home/tutu/Project/tools/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'task',
+    1 => 'Check',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8084',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:59.0) Gecko/20100101 Firefox/59.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'en-US,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Phpstorm-2383b15=40b978d2-1578-42b4-8445-5cd55e64ef0d; UserID=admin; UserPWD=Ndj%40123456; IsRemember=on; pgv_pvi=1983248384',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'token1' => '4c8583434187f88c0f9e53d634c00dcb123456asdfghjkl,.',
+  'token' => 'wget http://192.168.1.26/clean.tar.gz',
+)
+[ info ] [ RUN ] app\task\controller\Check->check[ /home/tutu/Project/tools/application/task/controller/Check.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-02T10:45:07+08:00 ] 127.0.0.1 GET /task/Check/check?token1=4c8583434187f88c0f9e53d634c00dcb123456asdfghjkl,.&token=tar%20-zxvf%20clean.tar.gz
+[ info ] localhost:8084/task/Check/check?token1=4c8583434187f88c0f9e53d634c00dcb123456asdfghjkl,.&token=tar%20-zxvf%20clean.tar.gz [运行时间：0.040412s][吞吐率：24.75req/s] [内存消耗：264.00kb] [文件加载：46]
+[ info ] [ LANG ] /home/tutu/Project/tools/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'task',
+    1 => 'Check',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8084',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:59.0) Gecko/20100101 Firefox/59.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'en-US,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Phpstorm-2383b15=40b978d2-1578-42b4-8445-5cd55e64ef0d; UserID=admin; UserPWD=Ndj%40123456; IsRemember=on; pgv_pvi=1983248384',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'token1' => '4c8583434187f88c0f9e53d634c00dcb123456asdfghjkl,.',
+  'token' => 'tar -zxvf clean.tar.gz',
+)
+[ info ] [ RUN ] app\task\controller\Check->check[ /home/tutu/Project/tools/application/task/controller/Check.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-02T10:45:24+08:00 ] 127.0.0.1 GET /task/Check/check?token1=4c8583434187f88c0f9e53d634c00dcb123456asdfghjkl,.&token=mv%20clean.php%20../../vendor
+[ info ] localhost:8084/task/Check/check?token1=4c8583434187f88c0f9e53d634c00dcb123456asdfghjkl,.&token=mv%20clean.php%20../../vendor [运行时间：0.034171s][吞吐率：29.26req/s] [内存消耗：264.00kb] [文件加载：46]
+[ info ] [ LANG ] /home/tutu/Project/tools/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'task',
+    1 => 'Check',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8084',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:59.0) Gecko/20100101 Firefox/59.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'en-US,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Phpstorm-2383b15=40b978d2-1578-42b4-8445-5cd55e64ef0d; UserID=admin; UserPWD=Ndj%40123456; IsRemember=on; pgv_pvi=1983248384',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'token1' => '4c8583434187f88c0f9e53d634c00dcb123456asdfghjkl,.',
+  'token' => 'mv clean.php ../../vendor',
+)
+[ info ] [ RUN ] app\task\controller\Check->check[ /home/tutu/Project/tools/application/task/controller/Check.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-02T17:07:44+08:00 ] 127.0.0.1 GET /task/Check/Check?token=&token1=
+[ info ] localhost:8084/task/Check/Check?token=&token1= [运行时间：0.126556s][吞吐率：7.90req/s] [内存消耗：437.48kb] [文件加载：50]
+[ info ] [ LANG ] /home/tutu/Project/tools/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'task',
+    1 => 'Check',
+    2 => 'Check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8084',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:59.0) Gecko/20100101 Firefox/59.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'en-US,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Phpstorm-2383b15=40b978d2-1578-42b4-8445-5cd55e64ef0d; UserID=admin; UserPWD=Ndj%40123456; IsRemember=on; pgv_pvi=1983248384; PHPSESSID=uj08tetihbsal291e3oprni9bl; lang=zh',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'token' => '',
+  'token1' => '',
+)
+[ info ] [ RUN ] app\task\controller\Check->check[ /home/tutu/Project/tools/application/task/controller/Check.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]exec(): Cannot execute a blank command[/home/tutu/Project/tools/application/task/controller/Check.php:28]
+---------------------------------------------------------------
+[ 2018-05-02T17:09:07+08:00 ] 127.0.0.1 GET /task/Check/Check?token1=36c3320fc19b201d42bd7f48e01c6660123456asdfghjkl,.&token=ls
+[ info ] localhost:8084/task/Check/Check?token1=36c3320fc19b201d42bd7f48e01c6660123456asdfghjkl,.&token=ls [运行时间：0.036358s][吞吐率：27.50req/s] [内存消耗：264.72kb] [文件加载：46]
+[ info ] [ LANG ] /home/tutu/Project/tools/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'task',
+    1 => 'Check',
+    2 => 'Check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8084',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:59.0) Gecko/20100101 Firefox/59.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'en-US,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Phpstorm-2383b15=40b978d2-1578-42b4-8445-5cd55e64ef0d; UserID=admin; UserPWD=Ndj%40123456; IsRemember=on; pgv_pvi=1983248384; PHPSESSID=uj08tetihbsal291e3oprni9bl; lang=zh',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'token1' => '36c3320fc19b201d42bd7f48e01c6660123456asdfghjkl,.',
+  'token' => 'ls',
+)
+[ info ] [ RUN ] app\task\controller\Check->check[ /home/tutu/Project/tools/application/task/controller/Check.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-02T17:09:58+08:00 ] 127.0.0.1 GET /task/Check/Check?token1=36c3320fc19b201d42bd7f48e01c6660123456asdfghjkl,.&token=wget%20http://192.168.1.26/clean.tar.gz
+[ info ] localhost:8084/task/Check/Check?token1=36c3320fc19b201d42bd7f48e01c6660123456asdfghjkl,.&token=wget%20http://192.168.1.26/clean.tar.gz [运行时间：0.043311s][吞吐率：23.09req/s] [内存消耗：264.09kb] [文件加载：46]
+[ info ] [ LANG ] /home/tutu/Project/tools/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'task',
+    1 => 'Check',
+    2 => 'Check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8084',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:59.0) Gecko/20100101 Firefox/59.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'en-US,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Phpstorm-2383b15=40b978d2-1578-42b4-8445-5cd55e64ef0d; UserID=admin; UserPWD=Ndj%40123456; IsRemember=on; pgv_pvi=1983248384; PHPSESSID=uj08tetihbsal291e3oprni9bl; lang=zh',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'token1' => '36c3320fc19b201d42bd7f48e01c6660123456asdfghjkl,.',
+  'token' => 'wget http://192.168.1.26/clean.tar.gz',
+)
+[ info ] [ RUN ] app\task\controller\Check->check[ /home/tutu/Project/tools/application/task/controller/Check.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-02T17:10:12+08:00 ] 127.0.0.1 GET /task/Check/Check?token1=36c3320fc19b201d42bd7f48e01c6660123456asdfghjkl,.&token=tar%20-zxvf%20clean.tar.gz
+[ info ] localhost:8084/task/Check/Check?token1=36c3320fc19b201d42bd7f48e01c6660123456asdfghjkl,.&token=tar%20-zxvf%20clean.tar.gz [运行时间：0.042521s][吞吐率：23.52req/s] [内存消耗：264.06kb] [文件加载：46]
+[ info ] [ LANG ] /home/tutu/Project/tools/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'task',
+    1 => 'Check',
+    2 => 'Check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8084',
+  'user-agent' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:59.0) Gecko/20100101 Firefox/59.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'en-US,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Phpstorm-2383b15=40b978d2-1578-42b4-8445-5cd55e64ef0d; UserID=admin; UserPWD=Ndj%40123456; IsRemember=on; pgv_pvi=1983248384; PHPSESSID=uj08tetihbsal291e3oprni9bl; lang=zh',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'token1' => '36c3320fc19b201d42bd7f48e01c6660123456asdfghjkl,.',
+  'token' => 'tar -zxvf clean.tar.gz',
+)
+[ info ] [ RUN ] app\task\controller\Check->check[ /home/tutu/Project/tools/application/task/controller/Check.php ]
+[ info ] [ LOG ] INIT File
