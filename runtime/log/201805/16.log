@@ -383,3 +383,138 @@
 )
 [ info ] [ RUN ] app\index\controller\Report->resetExcel[ /home/tutu/Project/tools/application/index/controller/Report.php ]
 [ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-16T13:34:19+08:00 ] 0.0.0.0 GET /public/index.php
+[ info ] localhost:8099/public/index.php [运行时间：0.406432s][吞吐率：2.46req/s] [内存消耗：1,405.47kb] [文件加载：31]
+[ info ] [ LANG ] F:\��ʱ�ļ�\mess_tools\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8099',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\��ʱ�ļ�\mess_tools\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-16T13:34:37+08:00 ] 0.0.0.0 GET /public/index.php/index/Check/check
+[ info ] localhost:8099/public/index.php/index/Check/check [运行时间：0.146488s][吞吐率：6.83req/s] [内存消耗：1,440.54kb] [文件加载：34]
+[ info ] [ LANG ] F:\��ʱ�ļ�\mess_tools\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Check',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8099',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-16T13:34:44+08:00 ] 0.0.0.0 GET /public/index.php/task/Check/check
+[ info ] localhost:8099/public/index.php/task/Check/check [运行时间：0.219070s][吞吐率：4.56req/s] [内存消耗：1,707.59kb] [文件加载：41]
+[ info ] [ LANG ] F:\��ʱ�ļ�\mess_tools\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'task',
+    1 => 'Check',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8099',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\task\controller\Check->check[ F:\��ʱ�ļ�\mess_tools\application\task\controller\Check.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]exec(): Cannot execute a blank command[F:\��ʱ�ļ�\mess_tools\application\task\controller\Check.php:28]
+---------------------------------------------------------------
+[ 2018-05-16T13:35:54+08:00 ] 0.0.0.0 GET /public/index.php/index/Report/resetExcel
+[ info ] localhost:8099/public/index.php/index/Report/resetExcel [运行时间：0.061746s][吞吐率：16.20req/s] [内存消耗：1,740.34kb] [文件加载：41]
+[ info ] [ LANG ] F:\��ʱ�ļ�\mess_tools\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Report',
+    2 => 'resetExcel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8099',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Report->resetExcel[ F:\��ʱ�ļ�\mess_tools\application\index\controller\Report.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]scandir(./resetExcel/,./resetExcel/): [F:\��ʱ�ļ�\mess_tools\application\index\controller\Report.php:216]
+---------------------------------------------------------------
+[ 2018-05-16T13:36:27+08:00 ] 0.0.0.0 GET /public/index.php/index/Report/resetExcel
+[ info ] localhost:8099/public/index.php/index/Report/resetExcel [运行时间：0.052785s][吞吐率：18.94req/s] [内存消耗：1,704.63kb] [文件加载：37]
+[ info ] [ LANG ] F:\��ʱ�ļ�\mess_tools\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Report',
+    2 => 'resetExcel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8099',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Report->resetExcel[ F:\��ʱ�ļ�\mess_tools\application\index\controller\Report.php ]
+[ info ] [ LOG ] INIT File
