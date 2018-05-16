@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<service>  
+<id>UPUPW_PHPFPM</id>  
+<name>UPUPW_PHPFPM</name>  
+<description>用于支持PHP-FastCGI随服务启动</description>  
+<executable>C:/Project/UPUPW_NP7.0/PHP7/phpfpm.exe</executable> 
+<logpath>C:/Project/UPUPW_NP7.0/PHP7/phpfpm/</logpath> 
+<logmode>roll</logmode> 
+<depend></depend>  
+<startargument>"C:/Project/UPUPW_NP7.0/PHP7/php-cgi.exe -c C:/Project/UPUPW_NP7.0/PHP7/php.ini" -n 8 -i 127.0.0.1 -p 9070</startargument>
+<stopargument></stopargument>
+</service>
